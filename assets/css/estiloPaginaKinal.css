@@ -1,0 +1,625 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* footer */
+footer {
+    background-color: #23376D;
+    padding: 10px;
+    margin-top: auto;
+}
+
+/* Display Grid es para las columnas y el repeat es para decir el numero de columnas que quiero que tenga el grid */
+
+/* columnas del footer */
+.pie-pagina .texto-1 {
+    width: 1005;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+/* imagenes */
+.pie-pagina .texto-1 .textoFooter figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .texto-1 .textoFooter figure img {
+    width: 230px;
+}
+
+.pie-pagina .texto-1 .textoFooter figure .trabajo {
+    width: 280px;
+}
+
+
+
+/* titulos del footer */
+.pie-pagina .texto-1 .textoFooter h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/* Textos del footer */
+.pie-pagina .texto-1 .textoFooter p {
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* redes sociales */
+.pie-pagina .texto-1 .redesFooter a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+}
+
+/* alineacion de las redes sociales */
+.pie-pagina .texto-1 .redesFooter {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* hover de las redes sociales */
+.pie-pagina .texto-1 .redesFooter .instagram:hover {
+    color: #F20954;
+}
+
+.pie-pagina .texto-1 .redesFooter .youtube:hover {
+    color: #FF0000;
+}
+
+.pie-pagina .texto-1 .redesFooter .facebook:hover {
+    color: #0572E6;
+}
+
+/* h2 de redes sociales */
+.pie-pagina .texto-1 .textoFooter .h2-footer-redes {
+    text-align: center;
+}
+
+/* h2 de ubicacion */
+.pie-pagina .texto-1 .textoFooter .h2-ubi {
+    text-align: center;
+}
+
+/* h2 de contacto */
+.pie-pagina .texto-1 .textoFooter .h2-contacto {
+    text-align: center;
+}
+
+
+/* derechos de autor */
+.pie-pagina .derechos {
+    padding: 15px 10pc;
+    text-align: center;
+    color: white;
+}
+
+.hr-footer {
+    color: white;
+}
+
+
+
+/* FIN DE CSS DE footer */
+
+/* Iconos */
+.redes ul a {
+    color: white;
+}
+
+
+.instagram {
+    text-decoration: none;
+}
+
+.instagram:hover {
+    font-size: 16px;
+    color: #F20954;
+}
+
+.facebook {
+    text-decoration: none;
+
+}
+
+.facebook:hover {
+    font-size: 16px;
+
+}
+
+.youtube {
+    text-decoration: none;
+}
+
+.youtube:hover {
+    font-size: 16px;
+    color: #FF0000;
+}
+
+
+/* Logo */
+.logoK {
+    position: relative;
+    width: 170px;
+    left: 0px;
+    transform: translatex(0%);
+}
+
+
+/* Items del navBar */
+.nav-item1 {
+    position: relative;
+    left: 350px;
+    transform: translatex(-54%);
+}
+
+.nav-item2 {
+    position: relative;
+    left: 450px;
+    transform: translatex(-80%);
+}
+
+.nav-item3 {
+    position: relative;
+    left: 550px;
+    transform: translatex(-97%);
+}
+
+
+/* imagenes primer carusel */
+.imagenes {
+    height: 600px;
+}
+
+@media screen and (max-width:1500px) {
+    .imagenes {
+        height: auto;
+    }
+
+}
+
+
+
+/* Elementos del article */
+.que-somos-p {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #273B70;
+    font-style: italic;
+    padding-bottom: 45px;
+}
+
+@media screen and (max-width:1500px) {
+    .que-somos-p {
+        text-align: center;
+        padding-top: 25px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #273B70;
+        font-style: italic;
+        padding-bottom: 80px;
+    }
+}
+
+
+
+.que-somos-h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 72px;
+    color: #23376D;
+    font-style: oblique;
+
+}
+
+
+/* imagen Capacitate */
+.img-cap {
+    position: absolute;
+    padding-left: 850px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:760px) {
+    .img-cap {
+        position: absolute;
+        padding-left: 88px;
+        padding-top: 255px;
+
+    }
+}
+
+
+
+/* imagen Ciclo Basico */
+.imagenCicloBasico {
+    height: 550px;
+    opacity: 60%;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    color: #273B70;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+/* Texto educacion basica */
+.tabla-academicas {
+    color: white;
+    padding-top: 80px;
+    background-color: #385092;
+    height: 450px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.ul-academicas {
+    list-style: none;
+}
+
+.ul-tecnicas {
+    list-style: none;
+}
+
+.tabla-tecnicas {
+    color: white;
+    padding-top: 80px;
+    background-color: #7D0A42;
+    height: 450px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.h2-academicas {
+    text-align: center;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}
+
+.h2-tecnicas {
+    text-align: center;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}
+
+.boton-basicos {
+    background-color: #273B70;
+    border-radius: 30px 30px 30px 30px;
+    border-color: #273B70;
+}
+
+.boton-basicos:hover {
+    background-color: orange;
+    border-radius: 30px 30px 30px 30px;
+    border-color: orange;
+}
+
+.boton-basicos:active {
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 30px 30px 30px 30px;
+    border-color: orange;
+}
+
+@media screen and (max-width:1500px) {
+    .pie-pagina .texto-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+
+
+
+.imagen-basicos {
+    height: 530px;
+    border: solid 20px #7D0A42;
+
+}
+
+@media screen and (max-width:1500px) {
+    .imagen-basicos {
+        height: auto;
+    }
+
+}
+
+.texto-basicos-p {
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-basicos-h {
+    color: white;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* 
+@media screen and (max-width:1500px) {
+    .container-fluid .contenido-card-basicos {
+        width:  100%;
+    }
+
+} */
+
+.textos-edus {
+    padding-top: 50px;
+}
+
+.contenido-card-basicos {
+
+    background-color: #FDB500;
+    border: solid 9px #FDB500;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .cards-carreras-b .titulo-edu {
+        padding-top: 0%;
+    }
+}
+
+
+
+.titulo-edu {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.titulo-edus {
+
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.texto-edu {
+
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+@media screen and (max-width:800px) {
+    .contenido-card-basicos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .textos-edus {
+        padding-top: 0;
+    }
+}
+
+.boton-edu {
+    background-color: #273B70;
+    border-color: #273B70;
+    font-size: 20px;
+    color: white;
+}
+
+.boton-edu:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-size: 22px;
+}
+
+.boton-edu:active {
+    background-color: white;
+    border-color: white;
+    color: white;
+    font-size: 22px;
+}
+
+.card-basico {
+    background-color: #7D0A42;
+    border: solid 9px #7D0A42;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-diver {
+    background-color: #23376D;
+    border: solid 9px #23376D;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.h-basicos {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+@media screen and (max-width:800px) {
+    .cards-carreras-b .h-basicos {
+        padding-top: 0%;
+    }
+}
+
+.h-diver {
+    text-align: center;
+    font-size: 29px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.p-basicos {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.p-diver {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.titulo-k {
+    padding-top: 50px;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+.h5-b {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.fondo-j {
+    background-image: url(https://static.wixstatic.com/media/128120_402e8f7c07b74cdb9de1af880095fcb4~mv2.jpg/v1/fill/w_1422,h_325,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/128120_402e8f7c07b74cdb9de1af880095fcb4~mv2.jpg);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    font-size: 45px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.jovenes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #16233F;
+}
+
+.h1-jovenes-l {
+    text-align: center;
+    color: white;
+    font-size: 39px;
+}
+
+.h1-jovenes-2 {
+    color: #0CA0E0;
+    text-align: center;
+    font-size: 39px;
+}
+
+
+@media screen and (max-width:800px) {
+    .jovenes .boton-donar {
+        width: auto;
+        height: auto;
+    }
+}
+
+.boton-donar {
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    background-color: white;
+    border-color: white;
+    color: black;
+    width: 10%;
+    display: block;
+    float: right;
+    margin: auto;
+}
+
+.boton-donar:hover {
+    background-color: #7D0A42;
+    border-color: #7D0A42;
+}
+
+.imgs-part {
+    width: 10px;
+    background-color: red;
+    height: 10px;
+}
+
+.titulo-rediseno{
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.texto-rediseno{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-re{
+    background-color: #16233F;
+}

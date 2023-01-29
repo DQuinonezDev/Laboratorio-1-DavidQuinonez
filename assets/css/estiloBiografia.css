@@ -1,0 +1,111 @@
+/* Iconos */
+.redes ul a {
+    color: white;
+}
+
+
+.instagram {
+    text-decoration: none;
+}
+
+.instagram:hover {
+    font-size: 16px;
+    color: #F20954;
+}
+
+.facebook {
+    text-decoration: none;
+
+}
+
+.facebook:hover {
+    font-size: 16px;
+    color: #0572E6;
+}
+
+.github {
+    text-decoration: none;
+}
+
+.github:hover {
+    font-size: 16px;
+    color: black;
+}
+
+
+/* Logo */
+.logoK {
+    position: relative;
+    width: 130px;
+    left: 50px;
+    transform: translatex(120%);
+}
+
+
+/* Items del navBar */
+.nav-item1 {
+    position: relative;
+    left: 350px;
+    transform: translatex(-64%);
+}
+
+.nav-item2 {
+    position: relative;
+    left: 450px;
+    transform: translatex(-81%);
+}
+
+.nav-item3 {
+    position: relative;
+    left: 550px;
+    transform: translatex(-98%);
+}
+
+.image-car{
+    height: 600px ;
+}
+
+.bio{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.texto-bio{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto-bio-h{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* derechos de autor */
+.pie-pagina .derechos {
+    padding: 15px 10pc;
+    text-align: center;
+    color: white;
+}
+
+.hr-footer {
+    color: white;
+}
+
+/* footer */
+footer {
+    background-color: #252628 ;
+    padding: 10px;
+    margin-top: auto;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+    .image-car{
+        width: auto;
+        height: auto;
+    }
+}
